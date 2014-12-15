@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="_3_5_8.Koz_Sec"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="114" d:DesignWidth="500" >
+    <Border BorderBrush="Black" BorderThickness="2">
+        <Grid>
+            <Label Content="Koz Seçimi" Foreground="Black" Margin="220,0,0,0" />
+            <Button Cursor="Hand" Name="Sinek" Tag="1" HorizontalAlignment="Left" Margin="40,30,0,0" VerticalAlignment="Top" Width="75" Height="57" Background="Transparent" BorderBrush="Transparent">
+                <Image Source="kartlar/kart_tipleri/sinek.png" Width="72" Height="54" />
+            </Button>
+
+            <Button Cursor="Hand" Name="Karo" Tag="2" HorizontalAlignment="Left" Margin="155,30,0,0" VerticalAlignment="Top" Width="75" Height="57" Background="Transparent" BorderBrush="Transparent">
+                <Image Source="kartlar/kart_tipleri/karo.png" Width="72" Height="54"/>
+            </Button>
+
+            <Button Cursor="Hand" Name="Maca" Tag="3" HorizontalAlignment="Left" Margin="270,30,0,0" VerticalAlignment="Top" Width="75" Height="57" Background="Transparent" BorderBrush="Transparent">
+                <Image Source="kartlar/kart_tipleri/maca.png" Width="72" Height="54" />
+            </Button>
+
+            <Button  Cursor="Hand" HorizontalAlignment="Left" Tag="4" Name="Kupa" Margin="385,30,0,0" VerticalAlignment="Top" Width="75" Height="57" Background="Transparent" BorderBrush="Transparent">
+                <Image Source="kartlar/kart_tipleri/kupa.png" Width="72" Height="54" />
+            </Button>
+
+        </Grid>
+    </Border>
+</UserControl>
